@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Tickets</h1>
+
+      <div class="row">
+
+        <div class="col-md5">
+          <h3>Pick a movie, time and select your age to see the price.</h3>
+          <form id="movie-listing">
+            <h4>Select the movie you would like to see.</h4>
+            <select class="form-group" id="movie-name">
+              <option>Wonderwoman</option>
+              <option>Rough Night</option>
+            </select>
+            <br>
+            <h4>Select the time you would like to see it.</h4>
+            <select class="form-group" id="movie-time">
+              <option>3 pm</option>
+              <option>5 pm</option>
+              <option>7 pm</option>
+            </select>
+            <br>
+            <h4>Select your age group.</h4>
+            <select class="form-group" id="movie-age">
+              <option>Child up to 12</option>
+              <option>13-64</option>
+              <option>65 and up</option>
+            </select>
+            <br>
+          </div>
+            <br>
+
+<button type="submit" class="btn">See price</button>
+</form>
+<div id="output">
+  <p> <div id="result"> </div></p>
+</div>
+</div>
+</div> 
+</body>
+</html>
